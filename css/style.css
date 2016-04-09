@@ -1,0 +1,65 @@
+html { 	background: #3b4e5a; /* For browsers that do not support gradients */
+			  	background: -webkit-linear-gradient(left, #202c35, #3b4e5a ); /* For Safari 5.1 to 6.0 */
+			  	background: -o-linear-gradient(right, #202c35, #3b4e5a ); /* For Opera 11.1 to 12.0 */
+			  	background: -moz-linear-gradient(right, #202c35, #3b4e5a ); /* For Firefox 3.6 to 15 */
+			  	background: linear-gradient(to right, #202c35, #3b4e5a  ); /* Standard syntax */
+}
+
+body {     width: 100%; height: auto; margin-right: auto; margin-left: auto; font-family: Montserrat, arial, helvetica, sans-serif;}
+
+.container	{ width: 960px; margin: 0 auto;}
+
+a { text-decoration: none; color: #fff; font-family: montserrat;}
+
+header{ width: 100%; height: 150px; overflow: hidden;}
+.profilenmblock { width: 20%; height: 100px; float: left; margin-left: 10px; border-right: 1px solid #fff;}
+.profilenmblock a { color: #fff; font-family: Montserrat; padding-right: 32px; padding-top: 32px; float: right;}
+.profilenmblock img { border-radius: 100px; width: 55px; height: 55px; background-color: #fff; margin-top: 10px;}
+
+.button { background-color: #5f859c; }
+.button.albumbttn { float:right; margin-top: 40px; margin-right: 10px; border-radius: 3px;}
+.button.albumbttn p { padding: 0em 0.8em; font-family: montserrat; font-size: 0.7em; color: #fff; cursor: pointer;}
+
+.sidebar { float:left; height: 100px; width: 25%;}
+#mobilenav { width: 80%; display: block; margin-bottom: 10px;}
+#show { border-bottom: 1px solid #ddd; border-top: 1px solid #ddd;}
+a#show { list-style-type: none; text-decoration: none; text-align: center; padding: 8px 0; display: block; font-size: 0.9em;}
+#hide { text-align: center; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd;}
+a#hide { list-style-type: none; text-decoration: none; text-align: center; padding: 8px 0; display: block; color: #000;}
+#slider { background-color: #f0f0f0;}
+ul#slider  { list-style-type: none; display: block; text-align: center; padding: 10px 0; margin: 0 0; }
+#slider a  {list-style-type: none;text-decoration: none;text-align: center;padding: 10px 0; color: #000;font-size: 0.8em;}
+#slider li  { display: block; text-align: center; padding: 10px 0;}
+#slider li a { text-decoration: none; text-align: center;}
+
+
+.contentblock { width: 720px; float: right;}
+.album { width:220px; height: auto; margin: 10px; float: left;}
+.album-img { width:100%; height: 220px; float:left; background-color: #fff; }
+.album-name { width:100%; float:left; font-family: montserrat; color: #fff; font-size: 1em; text-align: center; margin-top: 10px;}
+.artist-name { width:100%; float:left; font-family: montserrat; color: #fff; font-size: 0.8em; text-align: center; margin-top: 5px;}
+
+form {width: 50%; height:auto; overflow: hidden; background-color: #fff; border-radius: 5px; float: none; margin: 0 auto; margin-top: 120px; }
+form input { width:90%; height:20px; background:#fafafa; border:1px solid #dedede; padding:10px; margin-top:30px; margin-left: 12px; font-size:0.9em; color:#3a3a3a; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+form input.submitbttn { width: 40%; height: 40px; float: right; margin-right: 12px; margin-bottom: 20px;}
+form span a { color: #000;}
+
+
+form.addform { width: 30%;}
+.closeform { width: 20px; height: 20px; z-index: 99; }
+.closeform i { font-size: 2em; color: #000;}
+.previewtop { background-color: #5f859c; height: auto; width: 100%; margin-bottom: 15px;}
+#blah {width: 150px; height: 150px; margin: 1em;}
+.addform input { margin: 1em;}
+.addform a { color: #000; padding: 2em; font-size: 0.8em;}
+.addformbttn {width: 125px; height: auto; float: right; font-size: 0.8em; padding: 0.2em; margin: 2.5em 1em 1em 1em;}
+
+/*#addform1:after { position: fixed; top, left, bottom, right: 0; background: rgba(0,0,0,0.5); z-index: -2; }
+#addform1:before { position: absolute; top, left, bottom, right: 0; background: #fff; z-index: -1;}*/
+
+.profileheader { width: 100%; height: 150px;}
+
+.previewtop #blah { border-radius: 100px; background-color: #fff; width: 150px; height: 150px;}
+
+
+

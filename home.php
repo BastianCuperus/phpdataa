@@ -11,14 +11,16 @@ $user_id = $_SESSION['user_session'];
 		$row=mysqli_fetch_assoc($result);
 
 		$image = $row['photo'];
-			if (!empty($image)) $image = "<img src='assets/default.png'>";
+			if (empty($image)) $image = "assets/default.png";
+			else {  $image = $row['photo']; }
 
 ?>
 
 <div class="container">
 	<header>
 		<div class="profilenmblock">
-			<img src="/assets/'.$image.'">
+			
+			<?php echo "<img src='".$image."'>"; ?>
 			<?php echo "<a href='index.php?page=profile'>"."Hi, " . $row['username']."</a>"; ?>
 		</div>
 

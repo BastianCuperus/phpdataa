@@ -10,7 +10,7 @@ require 'albumposter.php';
 		<img id="blah" src="#" alt="your image" />
 	</div>
 	<a>Albumillustratie</a>
-	<input type='file' id="imgInp" />
+	<input type="file" accept="image/*;capture=camera" id="fileInput" name="image" class="image">
 	<a>Album</a>
     <input type="text" name="albumname" placeholder="albumname" >
     <a>Artiest</a>

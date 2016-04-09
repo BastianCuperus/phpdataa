@@ -94,7 +94,7 @@ function readURL(input) {
 	    }
 	}
 
-	$("#imgInp").change(function(){
+	$("#fileInput").change(function(){
 	    readURL(this);
 	});
 
